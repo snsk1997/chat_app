@@ -1,0 +1,49 @@
+/***************************************
+ チャット画面
+ ***************************************/
+/* 全体 */
+.wrapper{
+  display: flex;
+}
+
+/* サイドバー */
+.side-bar{
+  height: 100vh;
+  width: 300px;
+}
+.side-bar-header{
+  height: 100px;
+  width: 100%;
+  background-color: #253141;
+  padding: 0 20px;
+}
+.side-bar-main{
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+/* メインチャット */
+.main-chat{
+  height: 100vw;
+  width: calc(100vw - 300px);
+}
+.main-chat-header{
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+.main-chat-messages{
+  height: calc(100vh - 190px);
+  width: 100%;
+  background-color: #FAFAFA;
+  padding: 46px 40px 0 40px ;
+}
+.main-chat-input{
+  height: 90px;
+  width: 100%;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
