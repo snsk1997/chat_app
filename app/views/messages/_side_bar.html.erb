@@ -1,0 +1,19 @@
+<div class="side-bar">
+    <div class="side-bar-header">
+      <div class="user-name">
+        <%= link_to current_user.name, edit_user_path(current_user) %>
+      </div>
+      <div class="chat-create-btn">
+        <%= link_to "チャットを作成する", new_room_path %>
+      </div>
+    </div>
+    <div class="side-bar-main">
+        <% current_user.rooms.each do |room| %>
+          <div class="chat-room">
+            <div class="chat-room-name">
+              <a href="#"><%= room.name %></a>
+            </div>
+          </div>
+        <% end %>
+    </div>
+  </div>
