@@ -1,26 +1,5 @@
 <div class="wrapper">
-  <div class="side-bar">
-    <div class="side-bar-header">
-      <div class="user-name">
-        <%= link_to current_user.name, edit_user_path(current_user) %>
-      </div>
-      <div class="chat-create-btn">
-        <a href="#">チャットを作成する</a>
-      </div>
-    </div>
-    <div class="side-bar-main">
-      <div class="chat-room">
-        <div class="chat-room-name">
-          <a href="#">ROOM1</a>
-        </div>
-      </div>
-      <div class="chat-room">
-        <div class="chat-room-name">
-          <a href="#">ROOM2</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%= render "messages/side_bar" %>
   <div class="main-chat">
     <div class="main-chat-header">
       <div class="header-title">
