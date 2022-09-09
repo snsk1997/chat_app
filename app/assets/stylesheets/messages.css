@@ -148,4 +148,6 @@
   font-size: 16px;
   color: white;
 }
-
+.field_with_errors {
+  display: contents;
+}
