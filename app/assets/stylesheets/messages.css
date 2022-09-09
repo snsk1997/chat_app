@@ -121,7 +121,7 @@
   display: flex;
   justify-content: space-between;
 }
-.form-text{
+.form-message{
   padding-left: 10px;
   width: 100%;
   background-color: white;
@@ -140,7 +140,7 @@
 .hidden {
   display: none;
 }
-.submit{
+.form-submit{
   height: 50px;
   padding: 0 20px;
   margin-left: 15px;
@@ -148,4 +148,6 @@
   font-size: 16px;
   color: white;
 }
-
+.field_with_errors {
+  display: contents;
+}
